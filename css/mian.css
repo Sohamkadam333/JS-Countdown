@@ -19,7 +19,10 @@ body {
   align-items: center;
 }
 
-.openingAfter .days {
+.openingAfter .days,
+.openingAfter .hours,
+.openingAfter .minutes,
+.openingAfter .seconds {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -27,7 +30,10 @@ body {
   align-items: center;
 }
 
-.openingAfter .days span {
+.openingAfter .days span,
+.openingAfter .hours span,
+.openingAfter .minutes span,
+.openingAfter .seconds span {
   font-size: 10px;
 }
 

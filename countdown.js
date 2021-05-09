@@ -15,9 +15,9 @@ const timer = setInterval(() => {
 
         document.querySelector('.openingAfter').innerHTML = `
         <h1 class="days">${days}<span>Days</span></h1>
-        <h1 class="days">${hours}<span>Hours</span></h1>
-        <h1 class="days">${minutes}<span>Minutes</span></h1>
-        <h1 class="days">${seconds}<span>Seconds</span></h1>`;
+        <h1 class="hours">${hours}<span>Hours</span></h1>
+        <h1 class="minutes">${minutes}<span>Minutes</span></h1>
+        <h1 class="seconds">${seconds}<span>Seconds</span></h1>`;
 
 
 

@@ -17,7 +17,10 @@ body {
   justify-content: center;
   align-items: center;
 
-  .days {
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
     padding: 20px;
     display: flex;
     flex-direction: column;
