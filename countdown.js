@@ -1,5 +1,5 @@
 
-const openingAfter = new Date("Tue May 25 2021 00:00:00 GMT+0530 (India Standard Time)").getTime();
+const openingAfter = new Date("Tue May 25 2022 00:00:00 GMT+0530 (India Standard Time)").getTime();
 const today = new Date().getTime();
 
 
