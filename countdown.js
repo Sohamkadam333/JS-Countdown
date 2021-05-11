@@ -13,11 +13,11 @@ const timer = setInterval(() => {
         const minutes = Math.ceil((distance % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.ceil((distance % (1000 * 60)) / 1000);
 
-        document.querySelector('.openingAfter').innerHTML = `
-        <h1 class="days">${days}<span>Days</span></h1>
-        <h1 class="hours">${hours}<span>Hours</span></h1>
-        <h1 class="minutes">${minutes}<span>Minutes</span></h1>
-        <h1 class="seconds">${seconds}<span>Seconds</span></h1>`;
+
+        document.querySelector('.days').innerHTML = `${days}`;
+        document.querySelector('.hours').innerHTML = `${hours}`;
+        document.querySelector('.minutes').innerHTML = `${minutes}`;
+        document.querySelector('.seconds').innerHTML = `${seconds}`;
 
 
 
